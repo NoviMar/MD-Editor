@@ -1,0 +1,115 @@
+[versions]
+acra = "5.12.0"
+activityKtx = "1.10.1"
+animationCore = "1.8.3"
+appcompat = "1.7.1"
+billing = "7.1.1"
+browser = "1.8.0"
+commonMarkVersion = "0.25.0"
+composeBom = "2025.06.01"
+core = "1.6.1"
+coreKtx = "1.16.0"
+coreSplashscreen = "1.0.1"
+coroutines = "1.10.2"
+dependencyAnalysis = "2.18.0"
+desugar_jdk_libs = "2.1.5"
+espressoVersion = "3.6.1"
+fladle = "0.18.0"
+googleServices = "4.4.2"
+firebaseCrashlyticsGradle = "3.0.4"
+androidGradlePlugin = "8.10.1"
+junit = "4.13.2"
+kotlin = "2.2.0"
+lifecycleViewmodelKtx = "2.9.1"
+material = "1.12.0"
+material3WindowSizeClassAndroid = "1.3.2"
+materialIconsCore = "1.7.8"
+maxSdk = "35"
+minSdk = "23"
+monitor = "1.7.2"
+navigation = "2.9.0"
+orchestrator = "1.5.1"
+play = "2.0.2"
+preferenceKtx = "1.2.1"
+robolectric = "4.15.1"
+runner = "1.6.2"
+syllableCounter = "4.1.0"
+timber = "5.0.1"
+tripletPlay = "3.12.1"
+
+[libraries]
+acra-advanced-scheduler = { module = "ch.acra:acra-advanced-scheduler", version.ref = "acra" }
+acra-core = { module = "ch.acra:acra-core", version.ref = "acra" }
+acra-limiter = { module = "ch.acra:acra-limiter", version.ref = "acra" }
+acra-http = { module = "ch.acra:acra-http", version.ref = "acra" }
+androidx-activity-compose = { module = "androidx.activity:activity-compose" }
+androidx-activity-ktx = { module = "androidx.activity:activity-ktx", version.ref = "activityKtx" }
+androidx-animation = { module = "androidx.compose.animation:animation", version.ref = "animationCore" }
+androidx-animation-core = { module = "androidx.compose.animation:animation-core", version.ref = "animationCore" }
+androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
+androidx-browser = { module = "androidx.browser:browser", version.ref = "browser" }
+androidx-compose-runtime-runtime = { module = "androidx.compose.runtime:runtime" }
+androidx-core = { module = "androidx.test:core", version.ref = "core" }
+androidx-core-ktx = { module = "androidx.core:core-ktx", version.ref = "coreKtx" }
+androidx-core-splashscreen = { module = "androidx.core:core-splashscreen", version.ref = "coreSplashscreen" }
+androidx-espresso-core = { module = "androidx.test.espresso:espresso-core", version.ref = "espressoVersion" }
+androidx-espresso-intents = { module = "androidx.test.espresso:espresso-intents", version.ref = "espressoVersion" }
+androidx-espresso-web = { module = "androidx.test.espresso:espresso-web", version.ref = "espressoVersion" }
+androidx-foundation = { module = "androidx.compose.foundation:foundation" }
+androidx-foundation-layout = { module = "androidx.compose.foundation:foundation-layout" }
+androidx-lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtx" }
+androidx-material-icons-core = { module = "androidx.compose.material:material-icons-core", version.ref = "materialIconsCore" }
+androidx-material-icons-extended = { module = "androidx.compose.material:material-icons-extended" }
+androidx-material3 = { module = "androidx.compose.material3:material3" }
+androidx-material3-windowsizeclass = { module = "androidx.compose.material3:material3-window-size-class-android", version.ref = "material3WindowSizeClassAndroid" }
+androidx-monitor = { module = "androidx.test:monitor", version.ref = "monitor" }
+androidx-navigation-common = { module = "androidx.navigation:navigation-common", version.ref = "navigation" }
+androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigation" }
+androidx-navigation-runtime-ktx = { module = "androidx.navigation:navigation-runtime-ktx", version.ref = "navigation" }
+androidx-orchestrator = { module = "androidx.test:orchestrator", version.ref = "orchestrator" }
+androidx-preference-ktx = { module = "androidx.preference:preference-ktx", version.ref = "preferenceKtx" }
+androidx-runner = { module = "androidx.test:runner", version.ref = "runner" }
+androidx-runtime = { module = "androidx.compose.runtime:runtime" }
+androidx-ui = { module = "androidx.compose.ui:ui" }
+androidx-ui-graphics = { module = "androidx.compose.ui:ui-graphics" }
+androidx-ui-test = { module = "androidx.compose.ui:ui-test" }
+androidx-ui-test-junit4 = { module = "androidx.compose.ui:ui-test-junit4" }
+androidx-ui-text = { module = "androidx.compose.ui:ui-text" }
+androidx-ui-tooling = { module = "androidx.compose.ui:ui-tooling" }
+androidx-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview" }
+androidx-ui-unit = { module = "androidx.compose.ui:ui-unit" }
+billing = { module = "com.android.billingclient:billing", version.ref = "billing" }
+commonmark = { module = "org.commonmark:commonmark", version.ref = "commonMarkVersion" }
+commonmark-ext-autolink = { module = "org.commonmark:commonmark-ext-autolink", version.ref = "commonMarkVersion" }
+commonmark-ext-gfm-strikethrough = { module = "org.commonmark:commonmark-ext-gfm-strikethrough", version.ref = "commonMarkVersion" }
+commonmark-ext-gfm-tables = { module = "org.commonmark:commonmark-ext-gfm-tables", version.ref = "commonMarkVersion" }
+commonmark-ext-heading-anchor = { module = "org.commonmark:commonmark-ext-heading-anchor", version.ref = "commonMarkVersion" }
+commonmark-ext-image-attributes = { module = "org.commonmark:commonmark-ext-image-attributes", version.ref = "commonMarkVersion" }
+commonmark-ext-task-list-items = { module = "org.commonmark:commonmark-ext-task-list-items", version.ref = "commonMarkVersion" }
+commonmark-ext-yaml-front-matter = { module = "org.commonmark:commonmark-ext-yaml-front-matter", version.ref = "commonMarkVersion" }
+compose-bom = { module = "androidx.compose:compose-bom", version.ref = "composeBom" }
+desugar_jdk_libs = { module = "com.android.tools:desugar_jdk_libs", version.ref = "desugar_jdk_libs" }
+foundation = { module = "androidx.compose.foundation:foundation" }
+foundation-layout = { module = "androidx.compose.foundation:foundation-layout" }
+junit = { module = "junit:junit", version.ref = "junit" }
+kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines" }
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutines" }
+kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "coroutines" }
+material = { module = "com.google.android.material:material", version.ref = "material" }
+material3 = { module = "androidx.compose.material3:material3" }
+play-review-ktx = { module = "com.google.android.play:review-ktx", version.ref = "play" }
+robolectric = { module = "org.robolectric:robolectric", version.ref = "robolectric" }
+runtime = { module = "androidx.compose.runtime:runtime" }
+syllable-counter = { module = "eu.crydee:syllable-counter", version.ref = "syllableCounter" }
+timber = { module = "com.jakewharton.timber:timber", version.ref = "timber" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
+android-library = { id = "com.android.library", version.ref = "androidGradlePlugin" }
+compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+dependency-analysis = { id = "com.autonomousapps.dependency-analysis", version.ref = "dependencyAnalysis" }
+firebase-crashlytics = { id = "com.google.firebase.crashlytics", version.ref = "firebaseCrashlyticsGradle" }
+fladle = { id = "com.osacky.fladle", version.ref = "fladle" }
+google-services = { id = "com.google.gms.google-services", version.ref = "googleServices" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+triplet-play = { id = "com.github.triplet.play", version.ref = "tripletPlay" }

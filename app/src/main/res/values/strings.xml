@@ -1,0 +1,81 @@
+<resources xmlns:tools="http://schemas.android.com/tools"  tools:ignore="MissingTranslation">
+    <string name="app_name">Simple Markdown</string>
+    <string name="app_name_short">Markdown</string>
+
+    <string name="title_editor">Editor</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_help">Help</string>
+    <string name="title_about">About</string>
+    <string name="title_keyboard_shortcuts_file_operations">File operations</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_preview">Preview</string>
+    <string name="ok">OK</string>
+    <string name="confirm_exit">Press back again to exit</string>
+    <string name="markdown_here">Markdown here…</string>
+    <string name="action_save">Save</string>
+    <string name="action_editor_actions">Editor Actions</string>
+    <string name="action_share">Share</string>
+    <string name="title_share_as">Share as:</string>
+    <string name="share_markdown">Markdown</string>
+    <string name="share_html">HTML</string>
+    <string name="share_file">Share file to…</string>
+    <string name="file_saved">Successfully saved %1$s</string>
+    <string name="file_save_error">An error occurred while saving the file</string>
+    <string name="file_loaded">Successfully loaded %1$s</string>
+    <string name="file_load_error">An error occurred while opening the file</string>
+    <string name="action_back">Back</string>
+    <string name="action_menu">Main Menu</string>
+    <string name="action_new">New</string>
+    <string name="action_open">Open</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="pref_title_autosave">Enable autosave</string>
+    <string name="action_lock_swipe">Lock Swiping</string>
+    <string name="action_privacy">Privacy</string>
+    <string name="pref_title_error_reports">Enable automated error reports</string>
+    <string name="pref_error_reports_off">Error reports will not be sent</string>
+    <string name="pref_error_reports_on">Error reports will be sent</string>
+    <string name="pref_title_analytics">Send analytics</string>
+    <string name="pref_analytics_off">Analytics events will not be sent</string>
+    <string name="pref_analytics_on">Analytics events will be sent</string>
+    <string name="action_force_crash">Force a crash</string>
+    <string name="description_force_crash">Purposefully crash the app for testing purposes</string>
+    <string name="pref_title_readability">Enable readability highlighting (experimental)</string>
+    <string name="pref_readability_off">Readability highlighting is off</string>
+    <string name="pref_readability_on">Readability highlighting is on</string>
+    <string name="pref_autosave_on">Files will be automatically saved</string>
+    <string name="pref_autosave_off">Files will not be automatically saved</string>
+    <string name="pref_title_amoled_dark_theme">AMOLED Dark Theme</string>
+    <string name="pref_description_amoled_dark_theme">Use a pure black background instead of the default</string>
+    <string name="title_dark_mode">Dark Mode</string>
+    <string name="pref_value_light">Light</string>
+    <string name="pref_value_dark">Dark</string>
+<!--    <string name="pref_value_auto">Auto</string>-->
+    <string name="pref_key_dark_mode_light" translatable="false">light</string>
+    <string name="pref_key_dark_mode_dark" translatable="false">dark</string>
+    <string name="pref_key_dark_mode_auto" translatable="false">auto</string>
+    <string name="prompt_save_changes">Would you like to save your changes?</string>
+    <string name="prompt_confirm_open_non_text">%1$s does not appear to be a text file. Open anyway?</string>
+    <string name="action_save_as">Save as…</string>
+    <string name="support_info">SimpleMarkdown is a personal project of mine that I develop and
+        maintain in my free time. I very much appreciate any and all forms of support, whether
+        that be assistance with designing the app or icons, adding translations for other
+        languages, contributing to the code, or giving me a tip. If you have any troubles with
+        SimpleMarkdown, please don\'t hesitate to get in touch, and if you haven\'t already,
+        please rate the app on the Play Store.\n\nAlso please keep in mind that the in-app
+        purchases for the tips won\'t unlock any additional functionality in the app.
+        SimpleMarkdown is and always will be completely free and open source!</string>
+    <string name="action_view_github">View SimpleMarkdown on GitHub</string>
+    <string name="support_title">Support SimpleMarkdown</string>
+    <string name="action_rate">Rate SimpleMarkdown</string>
+<!--    <string-array name="pref_entries_dark_mode">-->
+<!--        <item>@string/pref_value_light</item>-->
+<!--        <item>@string/pref_value_dark</item>-->
+<!--        <item>@string/pref_value_auto</item>-->
+<!--    </string-array>-->
+    <string-array name="pref_values_dark_mode">
+        <item>@string/pref_key_dark_mode_light</item>
+        <item>@string/pref_key_dark_mode_dark</item>
+        <item>@string/pref_key_dark_mode_auto</item>
+    </string-array>
+</resources>
